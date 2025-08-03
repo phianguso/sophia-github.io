@@ -2,65 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Your Name | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">YourName</div>
-      <ul class="nav-links">
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="hero">
-      <h1>Hi, I'm Your Name</h1>
-      <p>I build beautiful websites & web apps.</p>
-      <a href="#projects" class="btn">View My Work</a>
+  <header class="hero reveal">
+    <h1>Hello, welcome to my</h1>
+    <h2 class="portfolio-title">PORTFOLIO</h2>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/300x400.png?text=Your+Photo" alt="Your photo" />
     </div>
+    <p class="tagline">Graphic Designer | Open to Work</p>
   </header>
 
   <main>
-    <section id="projects" class="section reveal">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-container">
-        <div class="project-card">
-          <h3>Project One</h3>
-          <p>Short description of the project.</p>
-        </div>
-        <div class="project-card">
-          <h3>Project Two</h3>
-          <p>Another short description here.</p>
-        </div>
-        <div class="project-card">
-          <h3>Project Three</h3>
-          <p>Example project with cool results.</p>
+    <section class="section reveal" id="about">
+      <h3>ABOUT ME</h3>
+      <p>I’m [Your Name], a passionate graphic designer specializing in logo design, branding, and illustration. Replace this with your actual bio.</p>
+    </section>
+
+    <section class="section two-column reveal">
+      <div class="column">
+        <h3>EDUCATION</h3>
+        <ul>
+          <li><strong>2016–2017</strong><br>FPT Arena Multimedia</li>
+        </ul>
+        <h3>EXPERIENCE</h3>
+        <ul>
+          <li>2016 – T-shirt Design</li>
+          <li>2018–2024 – Graphic Designer at [Company]</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>TECHNICAL SKILLS</h3>
+        <p>Branding, 2D Illustration, Logo Design, Graphic Design</p>
+        <h3>SOFTWARE</h3>
+        <div class="icons">
+          <span class="soft ps">Ps</span>
+          <span class="soft ai">Ai</span>
+          <span class="soft ae">Ae</span>
+          <span class="soft id">Id</span>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section reveal">
-      <h2 class="section-title">About Me</h2>
-      <p>I’m a creative developer who loves clean design and writing efficient code. I specialize in front-end development, but I’m always exploring new technologies.</p>
+    <section class="section reveal" id="skills">
+      <h3>PERSONAL SKILLS</h3>
+      <div class="badges">
+        <span>Willing to learn</span>
+        <span>Communication</span>
+        <span>Time management</span>
+        <span>Flexible styles</span>
+        <span>Attention to detail</span>
+      </div>
     </section>
 
-    <section id="contact" class="section reveal">
-      <h2 class="section-title">Contact</h2>
-      <p>Email me at: <a href="mailto:you@example.com">you@example.com</a></p>
+    <section class="section reveal" id="contact">
+      <h3>CONTACT</h3>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Phone: <a href="tel:0773614605">0773 614 605</a></p>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 Your Name</p>
+  <footer class="reveal">
+    <p>© 2025 Your Name. All rights reserved.</p>
   </footer>
-
-  <button id="toTopBtn" title="Go to top">↑</button>
 
   <script src="script.js"></script>
 </body>
 </html>
+
